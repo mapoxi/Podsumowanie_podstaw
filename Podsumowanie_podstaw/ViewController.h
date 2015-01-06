@@ -12,13 +12,19 @@
     
     UILabel *dzialanie;
     UILabel *wynik;
-    NSMutableString *ciag;
+    NSString *ciag;
+    NSString *czlon1;
+    NSString *czlon2;
+    NSString *znak;
     
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *dzialanie;
 @property (nonatomic, retain) IBOutlet UILabel *wynik;
-@property (nonatomic) NSMutableString *ciag;
+@property (nonatomic) NSString *ciag;
+@property (nonatomic) NSString *czlon1;
+@property (nonatomic) NSString *czlon2;
+@property (nonatomic) NSString *znak;
 
 -(IBAction)jeden;
 -(IBAction)dwa;
@@ -36,6 +42,8 @@
 -(IBAction)pomnoz;
 -(IBAction)suma;
 -(IBAction)przecinek;
+-(IBAction)c;
+-(IBAction)wstecz;
 
 @end
 
